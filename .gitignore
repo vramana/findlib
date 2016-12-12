@@ -1,4 +1,6 @@
 *~
+*.cmt
+*.cmti
 *.cmi
 *.cmo
 *.cma
@@ -20,4 +22,5 @@ src/findlib/ocaml_args.ml
 src/findlib/ocamlfind
 src/findlib/topfind
 src/findlib/topfind.ml
+site-lib-src/camlp4
 tools/extract_args/extract_args
