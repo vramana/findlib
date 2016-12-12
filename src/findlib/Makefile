@@ -13,7 +13,7 @@ include $(TOP)/Makefile.config
 NAME = findlib
 
 # Need compiler-libs since ocaml-4.00
-OCAMLC = ocamlc -I +compiler-libs
+OCAMLC = ocamlc -I +compiler-libs -bin-annot
 OCAMLOPT = ocamlopt -I +compiler-libs
 OCAMLDEP = ocamldep
 OCAMLLEX = ocamllex
@@ -180,4 +180,3 @@ fl_meta.ml: fl_meta.mll
 .PRECIOUS: fl_metascanner.ml
 
 include depend
-
