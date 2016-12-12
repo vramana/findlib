@@ -5,7 +5,7 @@
 
 module StrSet = Set.Make(String)
 
-exception No_such_package 
+exception No_such_package
   = Fl_package_base.No_such_package
 
 
